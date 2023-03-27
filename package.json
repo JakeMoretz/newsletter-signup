@@ -1,0 +1,24 @@
+{
+  "name": "newsletter-signup",
+  "version": "1.0.0",
+  "description": "sign up form",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeMoretz/newsletter-signup.git"
+  },
+  "author": "jake moretz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakeMoretz/newsletter-signup/issues"
+  },
+  "homepage": "https://github.com/JakeMoretz/newsletter-signup#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "require": "^2.4.20"
+  }
+}
