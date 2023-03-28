@@ -1,7 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 
-
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -17,16 +16,12 @@ app.get('/', function (req, res) {
 app.post('/', function (req, res) {
     let fName = req.body.firstName;
     let lNAme = req.body.lastName;
-    let email = req.body.email;   
+    let email = req.body.email;
 });
 
 app.listen(3000, function () {
     console.log('server is running on port 3000');
 });
-
-
-
-
 
 // api key
 // 1968eac2a3b54937dbdab59480b05018-us17
